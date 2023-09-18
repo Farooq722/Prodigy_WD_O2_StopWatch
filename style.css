@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(./img/bgn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mini-container{
+    width: 30%;
+    height: 30vh;
+    background-color: #0e0a0a;
+    text-align: center;
+    position: absolute;
+    border-radius: 25px;
+    color: white;
+    background: transparent;
+}
+.mini-container h1{
+    margin-top: 15px;
+    font-size: 6vh;
+}
+
+.time{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.time > span{
+    font-size: 5vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hours{
+    font-size: 5vh;
+}
+.minute{
+    font-size: 5vh;
+}
+.seconds{
+    font-size: 5vh;
+}
+
+.btns{
+    background-color: #141212;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    background: transparent;
+
+}
+.start{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* background: transparent; */
+    font-size: medium;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.start:hover{
+    background-color: rgb(77, 67, 67);
+    color: white;
+}
+.stop{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* background: transparent; */
+    font-size: medium;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.stop:hover{
+    background-color: rgb(77, 67, 67);
+    color: white;
+}
+.reset{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* background: transparent; */
+    font-size: medium;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.reset:hover{
+    background-color: rgb(77, 67, 67);
+    color: white;
+}
